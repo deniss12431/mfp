@@ -1,20 +1,3 @@
-/**
- * =================================================================== 
- *
- *  Lhander v1.0 Base Stylesheet
- *  url: styleshout.com
- *  01-11-2016
- *
- * =================================================================== 
- */
-
-/** 
- * ===================================================================
- * reset - normalize.css v3.0.2 | MIT License | git.io/normalize
- *
- * ------------------------------------------------------------------- 
- */
-
 html {
 	font-family: sans-serif;
 	-ms-text-size-adjust: 100%;
@@ -177,13 +160,6 @@ td, th {
 	padding: 0;
 }
 
-/** 
- * ===================================================================
- * basic/base setup styles 
- *
- * ------------------------------------------------------------------- 
- */
-
 html {
 	font-size: 62.5%;
 	box-sizing: border-box;
@@ -204,20 +180,10 @@ body, input, button {
 	-webkit-font-smoothing: antialiased;
 }
 
-/**
- * Media
- * -
- */
-
 img, video {
 	max-width: 100%;
 	height: auto;
 }
-
-/**
- * Typography resets
- * -
- */
 
 div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td {
 	margin: 0;
@@ -248,11 +214,6 @@ li {
 	display: block;
 }
 
-/**
- * links
- * -
- */
-
 a {
 	text-decoration: none;
 	line-height: inherit;
@@ -260,11 +221,6 @@ a {
 a img {
 	border: none;
 }
-
-/**
- * inputs
- * -
- */
 
 fieldset {
 	margin: 0;
@@ -284,13 +240,6 @@ textarea {
 	-o-appearance: none;
 	appearance: none;
 }
-
-/** 
- * ===================================================================
- * grid
- *
- * ------------------------------------------------------------------- 
- */
 
 .row {
 	width: 94%;
@@ -356,11 +305,6 @@ textarea {
 	width: 100%;
 }
 
-/**
- * small screens
- * --------------------------------------------------------------- 
- */
-
 @media screen and (max-width:1024px) {
 	.row .row {
 		margin-left: -18px;
@@ -370,11 +314,6 @@ textarea {
 		padding: 0 18px;
 	}
 }
-
-/**
- * tablets
- * --------------------------------------------------------------- 
- */
 
 @media screen and (max-width:768px) {
 	.row {
@@ -411,11 +350,6 @@ textarea {
 	}
 }
 
-/**
- * large mobile devices
- * --------------------------------------------------------------- 
- */
-
 @media screen and (max-width:600px) {
 	.row {
 		padding-left: 25px;
@@ -442,11 +376,6 @@ textarea {
 	}
 }
 
-/**
- * small mobile devices
- * --------------------------------------------------------------- 
- */
-
 @media screen and (max-width:400px) {
 	.row {
 		padding-left: 30px;
@@ -471,13 +400,6 @@ textarea {
 	}
 }
 
-/** 
- * ===================================================================
- * block grids 
- *
- * ------------------------------------------------------------------- 
- */
-
 .block-1-6 .bgrid {
 	width: 16.66667%;
 }
@@ -491,11 +413,6 @@ textarea {
 	width: 50%;
 }
 
-/**
- * Clearing for block grid columns. Allow columns with 
- * different heights to align properly.
- */
-
 .block-1-6 .bgrid:nth-child(6n+1),
 .block-1-4 .bgrid:nth-child(4n+1),
 .block-1-3 .bgrid:nth-child(3n+1),
@@ -503,10 +420,6 @@ textarea {
 	clear: both;
 }
 
-/**
- * small screens
- * --------------------------------------------------------------- 
- */
 @media screen and (max-width:1024px) {
 	.block-s-1-6 .bgrid {
 		width: 16.66667%;
@@ -535,10 +448,6 @@ textarea {
 	}
 }
 
-/**
- * tablets
- * --------------------------------------------------------------- 
- */
 @media screen and (max-width:768px) {
 	.block-tab-1-6 .bgrid {
 		width: 16.66667%;
@@ -567,10 +476,6 @@ textarea {
 	}
 }
 
-/**
- * mobile devices
- * --------------------------------------------------------------- 
- */
 @media screen and (max-width:600px) {
 	.block-mob-1-6 .bgrid {
 		width: 16.66667%;
@@ -599,11 +504,6 @@ textarea {
 	}
 }
 
-/**
- * stack on small mobile devices
- * --------------------------------------------------------------- 
- */
-
 @media screen and (max-width:400px) {
 	.stack .bgrid {
 		width: 100% !important;
@@ -614,18 +514,6 @@ textarea {
 	}
 }
 
-/** 
- * ===================================================================
- * MISC 
- *
- * ------------------------------------------------------------------- 
- */
-
-/**
- * Clearing - (http://nicolasgallagher.com/micro-clearfix-hack/
- * -
- */
-
 .group:before, .group:after {
 	content: "";
 	display: table;
@@ -633,11 +521,6 @@ textarea {
 .group:after {
 	clear: both;
 }
-
-/**
- * Misc Helper Styles 
- * -
- */
  
 .hide { display: none; }
 .invisible { visibility: hidden; }
@@ -661,4 +544,3 @@ textarea {
 	text-align: center;
 }
 
-/*# sourceMappingURL=base.css.map */
