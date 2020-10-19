@@ -1,49 +1,6 @@
-/**
- * =================================================================== 
- *
- *  Lhander v1.0 Main Stylesheet
- *  url: styleshout.com
- *  01-11-2016
- * -------------------------------------------------------------------
- *
- *	TOC:
- *	01. webfonts and iconfonts 
- *	02. base style overrides
- * 03. preloader
- * 04. forms
- * 05. buttons
- * 06. common styles
- * 07. header styles
- * 08. intro section
- * 09. process section
- * 10. features section
- * 11. pricing section
- * 12. testimomials section 
- * 13. faq section 
- *	14. ad-section 
- *	15. call-to-action section
- *	16. footer
- *
- * =================================================================== 
- */
-
-/** 
- * ===================================================================
- * webfonts and iconfonts 
- *
- * ------------------------------------------------------------------- 
- */
-
  @import url("fonts.css");
  @import url("ionicons/css/ionicons.min.css");
  @import url("micons/micons.css");
- 
- /** 
-  * ===================================================================
-  * base style overrides
-  *
-  * ------------------------------------------------------------------- 
-  */
  
  html {
      font-size: 10px;
@@ -74,12 +31,7 @@
      line-height: 3rem;
      color: #737373;
  }
- 
- /**
-  * links 
-  * -
-  */
- 
+  
  a, a:visited {
      color: #0087cc;
      -moz-transition: all 0.3s ease-in-out;
@@ -91,12 +43,7 @@
  a:hover, a:focus {
      color: #ff7b29;
  }
- 
- /**
-  * typography  
-  * -
-  */
- 
+  
  h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
      font-family: "raleway-bold", sans-serif;
      color: #252525;
@@ -267,12 +214,7 @@
      margin: 2.4rem 0 1.5rem;
      height: 0;
  }
- 
- /**
-  * Lists  
-  * -
-  */
- 
+  
  ol {
      list-style: decimal;
  }
@@ -316,12 +258,7 @@
  dd {
      margin: 0 0 0 2rem;
  }
- 
- /**
-  * tables  
-  * -
-  */
- 
+  
  table {
      border-width: 0;
      width: 100%;
@@ -350,12 +287,7 @@
      overflow-x: auto;
      -webkit-overflow-scrolling: touch;
  }
- 
- /**
-  * Spacing  
-  * -
-  */
- 
+  
  button, .button {
      margin-bottom: 1.2;
  }
@@ -378,24 +310,14 @@
  .iw-custom-select {
      margin-bottom: 3rem;
  }
- 
- /**
-  * floated image  
-  * -
-  */
- 
+  
  img.pull-right {
      margin: 1.5rem 0 0 3rem;
  }
  img.pull-left {
      margin: 1.5rem 3rem 0 0;
  }
- 
- /**
-  * block grids paddings 
-  * -
-  */
- 
+  
  .bgrid {
      padding: 0 20px;
  }
@@ -419,15 +341,7 @@
          padding: 0;
      }
  }
- 
- 
- /** 
-  * ===================================================================
-  * preloader
-  *
-  * ------------------------------------------------------------------- 
-  */
- 
+  
  #preloader {
      position: fixed;
      top: 0;
@@ -477,14 +391,7 @@
      }
  }
  
- 
- /** 
-  * ===================================================================
-  * forms
-  *
-  * ------------------------------------------------------------------- 
-  */
- 
+  
  fieldset {
      border: none;
  }
@@ -587,12 +494,7 @@
  input[type="checkbox"], input[type="radio"] {
      display: inline;
  }
- 
- /**
-  * Style Placeholder Text  
-  * -
-  */
- 
+  
  ::-webkit-input-placeholder {
      color: #a1a1a1;
  }
@@ -610,15 +512,7 @@
  .placeholder {
      color: #a1a1a1 !important;
  }
- 
- 
- /** 
-  * ===================================================================
-  * buttons
-  *
-  * ------------------------------------------------------------------- 
-  */
- 
+  
  .button,
  button,
  input[type="submit"],
@@ -709,14 +603,7 @@
      border: 0;
      padding: 0;
  }
- 
- /** 
-  * ===================================================================
-  * common styles 
-  *
-  * ------------------------------------------------------------------- 
-  */
- 
+  
  .section-intro {
      max-width: 700px;
      text-align: center;
@@ -762,13 +649,7 @@
          font-size: 2.5rem;
      }
  }
- 
- /**
-  * responsive:
-  * common styles
-  * - 
-  */
- 
+
  @media only screen and (max-width:768px) {
      .section-intro {
          max-width: 650px;
@@ -791,15 +672,7 @@
          font-size: 3.6rem;
      }
  }
- 
- 
- /** 
-  * ===================================================================
-  * header styles 
-  *
-  * ------------------------------------------------------------------- 
-  */
- 
+  
  header {
      width: 100%;
      position: absolute;
@@ -857,13 +730,7 @@
      height: 38px;
      background-size: 38px 38px;
  }
- 
- /**
-  * responsive:
-  * header section
-  * - 
-  */
- 
+  
  @media only screen and (max-width:768px) {
      header {
          top: 0;
@@ -876,22 +743,15 @@
      }
  }
  
- /**
-  * primary navigation
-  * - 
-  */
- 
  #main-nav-wrap, .main-navigation {
      margin: 0;
      padding: 0;
  }
  
- /* hide toggle button */
  a.menu-toggle {
      display: none;
  }
  
- /* main-nav-wrap */
  #main-nav-wrap {
      font-family: "raleway-heavy", sans-serif;
      font-size: 11.5px;
@@ -961,7 +821,6 @@
      transition: all 0.3s ease-in-out;
  }
  
- /* navigation links */
  .main-navigation li a {
      display: block;
      padding: 18px 7px;
@@ -983,10 +842,6 @@
      color: #FFFFFF;
  }
  
- /**
-  * mobile view - primary navigation
-  * - 
-  */
  
  @media only screen and (max-width:768px) {
      #main-nav-wrap {
@@ -1127,26 +982,14 @@
          display: none;
      }
  }
- 
- /**
-  * make sure the menu is visible on larger screens
-  * -
-  */
- 
+  
  @media only screen and (min-width:769px) {
      #main-nav-wrap ul.main-navigation {
          display: block !important;
      }
  }
  
- 
- /** 
-  * ===================================================================
-  * intro section
-  *
-  * ------------------------------------------------------------------- 
-  */
- 
+  
  #intro {
      background: #14181E url(../images/intro-bg.jpg) no-repeat center;
      -webkit-background-size: cover;
@@ -1218,13 +1061,7 @@
      color: #05bca9;
      border-color: #05bca9;
  }
- 
- /**
-  * responsive:
-  * intro
-  * -
-  */
- 
+  
  @media only screen and (max-width:1024px) {
      .intro-content {
          -webkit-transform: translateY(0);
@@ -1291,12 +1128,7 @@
          height: 60px;
      }
  }
- 
- /**
-  * video popup modal
-  * - 
-  */
- 
+  
  .popup-modal {
      max-width: 800px;
      background: #FFFFFF;
@@ -1328,12 +1160,6 @@
      color: rgba(255, 255, 255, 0.5);
  }
  
- /**
-  * responsive:
-  * video popup modal
-  * - 
-  */
- 
  @media only screen and (max-width:900px) {
      .popup-modal {
          max-width: 700px;
@@ -1346,12 +1172,6 @@
      }
  }
  
- /**
-  * transition effect for modal popup
-  * - 
-  */
- 
- /* overlay at start */
  .mfp-fade.mfp-bg {
      opacity: 0;
      -moz-transition: all 0.3s ease-in-out;
@@ -1361,17 +1181,14 @@
      transition: all 0.3s ease-in-out;
  }
  
- /* overlay animate in */
  .mfp-fade.mfp-bg.mfp-ready {
      opacity: 0.8;
  }
  
- /* overlay animate out */
  .mfp-fade.mfp-bg.mfp-removing {
      opacity: 0;
  }
  
- /* content at start */
  .mfp-fade.mfp-wrap .mfp-content {
      opacity: 0;
      -webkit-transform: translateY(-100%);
@@ -1384,7 +1201,6 @@
      transition: all 0.3s ease-in-out;
  }
  
- /* content animate in */
  .mfp-fade.mfp-wrap.mfp-ready .mfp-content {
      opacity: 1;
      -webkit-transform: translateY(0);
@@ -1392,22 +1208,13 @@
      transform: translateY(0);
  }
  
- /* content animate out */
  .mfp-fade.mfp-wrap.mfp-removing .mfp-content {
      opacity: 0;
      -webkit-transform: translateY(-100%);
      -ms-transform: translateY(-100%);
      transform: translateY(-100%);
  }
- 
- 
- /** 
-  * ===================================================================
-  * process section
-  *
-  * ------------------------------------------------------------------- 
-  */
- 
+  
  #process {
      background: #FFFFFF;
      padding-top: 12rem;
@@ -1468,13 +1275,7 @@
      letter-spacing: .2rem;
      margin-bottom: .3rem;
  }
- 
- /**
-  * responsive:
-  * process
-  * -
-  */
- 
+  
  @media only screen and (max-width:1024px) {
      .process-content .right-side, .process-content .left-side {
          padding: 0 3% 24px;
@@ -1518,14 +1319,7 @@
      }
  }
  
- 
- /** 
-  * ===================================================================
-  * features section
-  *
-  * ------------------------------------------------------------------- 
-  */
- 
+  
  #features {
      background: #090909 url(../images/features-bg.jpg) no-repeat center;
      -webkit-background-size: cover;
@@ -1568,13 +1362,7 @@
      color: #05bca9;
      margin-bottom: 1.8rem;
  }
- 
- /**
-  * responsive:
-  * features
-  * -
-  */
- 
+  
  @media only screen and (max-width:768px) {
      .features-content {
          max-width: 600px;
@@ -1593,15 +1381,7 @@
          padding: 0;
      }
  }
- 
- 
- /** 
-  * ===================================================================
-  * pricing section
-  *
-  * ------------------------------------------------------------------- 
-  */
- 
+  
  #pricing {
      background: #EAEAED;
      padding-top: 12rem;
@@ -1730,12 +1510,6 @@
      border-radius: 5px;
  }
  
- /**
-  * responsive:
-  * pricing
-  * -
-  */
- 
  @media only screen and (max-width:1140px) {
      .pricing-content {
          max-width: 800px;
@@ -1760,15 +1534,7 @@
          margin-right: 0;
      }
  }
- 
- 
- /** 
-  * ===================================================================
-  * testimonials section
-  *
-  * ------------------------------------------------------------------- 
-  */
- 
+  
  #testimonials {
      background: #FFFFFF;
      padding-top: 10.2rem;
@@ -1942,13 +1708,7 @@
  #testimonials .flex-direction-nav li.flex-nav-next {
      right: 0;
  }
- 
- /**
-  * responsive:
-  * testimonial slider
-  * -
-  */
- 
+  
  @media only screen and (max-width:1024px) {
      #testimonials .flex-container {
          max-width: 600px;
@@ -1986,13 +1746,6 @@
  }
  
  
- /** 
-  * ===================================================================
-  * faq section
-  *
-  * ------------------------------------------------------------------- 
-  */
- 
  #faq {
      background: #EAEAED;
      padding-top: 12rem;
@@ -2005,12 +1758,6 @@
  .faq-content .bgrid {
      padding: 0 30px;
  }
- 
- /**
-  * responsive:
-  * faq
-  * -
-  */
  
  @media only screen and (max-width:768px) {
      .faq-content {
@@ -2028,14 +1775,7 @@
      }
  }
  
- 
- /** 
-  * ===================================================================
-  * ad-section
-  *
-  * ------------------------------------------------------------------- 
-  */
- 
+  
  .section-ads {
      margin-top: 4.8rem;
      padding-top: 6rem;
@@ -2056,15 +1796,7 @@
  .section-ads .button:hover, .section-ads .button:focus {
      background: #05ad9c;
  }
- 
- 
- /** 
-  * ===================================================================
-  * call-to-action section
-  *
-  * ------------------------------------------------------------------- 
-  */
- 
+  
  #cta {
      background: #05bca9;
      padding-top: 7.2rem;
@@ -2114,13 +1846,7 @@
  .cta-content .stores li:last-child .button {
      margin-right: 0;
  }
- 
- /**
-  * responsive:
-  * cta
-  * -
-  */
- 
+  
  @media only screen and (max-width:650px) {
      .cta-content {
          max-width: 650px;
@@ -2150,14 +1876,7 @@
      }
  }
  
- 
- /** 
-  * ===================================================================
-  * footer
-  *
-  * ------------------------------------------------------------------- 
-  */
- 
+  
  footer {
      padding-bottom: 3rem;
      font-size: 1.5rem;
@@ -2240,11 +1959,9 @@
      color: #545454;
  }
  .footer-main .footer-subscribe .subscribe-form :-moz-placeholder {
-     /* Firefox 18- */
      color: #545454;
  }
  .footer-main .footer-subscribe .subscribe-form ::-moz-placeholder {
-     /* Firefox 19+ */
      color: #545454;
  }
  .footer-main .footer-subscribe .subscribe-form :-ms-input-placeholder {
@@ -2269,13 +1986,7 @@
  .footer-bottom .copyright span:last-child::after {
      display: none;
  }
- 
- /**
-  * responsive:
-  * footer
-  * -
-  */
- 
+  
  @media only screen and (max-width:768px) {
      .footer-main .footer-logo {
          margin-left: auto;
@@ -2329,12 +2040,7 @@
          border-top: 1px solid rgba(255, 255, 255, 0.03);
      }
  }
- 
- /**
-  * go to top
-  * -
-  */
- 
+  
  #go-top {
      position: fixed;
      bottom: 0;
@@ -2369,4 +2075,3 @@
      color: #FFFFFF;
  }
  
- /*# sourceMappingURL=main.css.map */
